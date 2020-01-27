@@ -14,7 +14,7 @@ Plug 'prettier/vim-prettier', {
 
 " run Prettier after every write
 let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql,*.html PrettierAsync
+autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql,*.html,*.md PrettierAsync
 
 " airline at the bottom of vim displaying information
 Plug 'vim-airline/vim-airline'
