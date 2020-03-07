@@ -54,3 +54,6 @@ set incsearch
 
 " turn off search highlight
 " nnoremap <leader><space> :nohlsearch<CR>
+
+" Allow using Vim's man function while also using vim as system man pager
+let $PAGER=''
