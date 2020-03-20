@@ -57,3 +57,5 @@ set incsearch
 
 " Allow using Vim's man function while also using vim as system man pager
 let $PAGER=''
+
+set relativenumber
