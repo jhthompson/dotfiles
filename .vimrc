@@ -55,7 +55,8 @@ set incsearch
 " turn off search highlight
 " nnoremap <leader><space> :nohlsearch<CR>
 
-" Allow using Vim's man function while also using vim as system man pager
-let $PAGER=''
-
 set relativenumber
+
+" use tabs instead of spaces
+set tabstop=4
+set shiftwidth=4
