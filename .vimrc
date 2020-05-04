@@ -12,6 +12,10 @@ Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
+" jsx support
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+
 " run Prettier after every write
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql,*.html,*.md PrettierAsync
@@ -32,10 +36,10 @@ let g:airline_theme='angr'
 set number
 
 " number of visual spaces per TAB
-set tabstop=4
+set tabstop=2
 
 " number of spaces in tab when editing
-set softtabstop=4
+set softtabstop=2
 
 " tabs are spaces
 set expandtab   
