@@ -13,8 +13,14 @@ Plug 'prettier/vim-prettier', {
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 " jsx support
-Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
+" Plug 'yuezk/vim-js'
+" Plug 'maxmellon/vim-jsx-pretty'
+
+" multiple language support
+Plug 'sheerun/vim-polyglot'
+
+" coc (conquer of completion)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " run Prettier after every write
 let g:prettier#autoformat = 0
@@ -61,6 +67,4 @@ set incsearch
 
 set relativenumber
 
-" use tabs instead of spaces
-set tabstop=4
-set shiftwidth=4
+set shiftwidth=2
